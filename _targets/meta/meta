@@ -1,0 +1,16 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+plot_development_gaps|function|a45261c7be20bfd0|||||||||||||||
+indicators|object|efc387ef9f646ca0|||||||||||||||
+cleaned_data|stem|41f50660dc95c800|e2d2e38d68a49b37|5b05ec53015394a7|630830729||t20118.3683061038s|s16569b|16569|rds|local|vector|||0.022||
+create_output_dir|stem|d88c9e2d2240348a|07974f2ccdc9d1f6|2c530c1562a7fbd1|-116060267||t20118.4175292489s|s56b|56|rds|local|vector|||0.001||
+x|object|fab2152688852925|||||||||||||||
+y|object|efc387ef9f646ca0|||||||||||||||
+econ_data|stem|f1670fdafc82b14c|a901cf3e732b5917|a62f96d9d0f516ad|2069808233||t20118.4199360289s|s7731b|7731|rds|local|vector|||1.237||
+ind|object|efc387ef9f646ca0
+save_plot|function|d11e9cf836f47147
+fetch_country_data|function|3e327f6270d504d9
+calculate_development_score|function|d1332b5465e38a34
+make_plot|function|a45261c7be20bfd0
+countries|object|fab2152688852925
+econ_plot|stem|50016adfaf69ab0a|f69b9ed6c8f9af5a|c936f38eb75f5004|362441223||t20118.4202959311s|s207548b|207548|rds|local|vector|||0.02||
+econ_saved_plot|stem|36ba351ba6e66d45|e4f3c86497423d3b|6b49333c5bdcd0d2|-1343724551|fig/econ_plot.png|t20118.4203037172s|s452195b|452195|file|local|vector|||0.664||
