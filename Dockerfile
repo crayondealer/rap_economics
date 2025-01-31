@@ -33,7 +33,5 @@ COPY . /pipeline
 RUN R -e "if (!file.exists('renv.lock')) renv::init()"
 RUN R -e "renv::restore()"
 
-RUN mkdir fig
-
 # Set container startup command
 CMD ["R", "-e", "targets::tar_make()"]
