@@ -1,4 +1,4 @@
-# Save this as run_analysis.R
+# Libraries to load
 library(wbstats)
 library(tidyverse)
 library(scales)
