@@ -28,7 +28,7 @@ docker build -t r-targets-pipeline .
 ```
 3. Run the pipeline. Use the following command to execute the pipeline:
 ```bash
-docker run --rm -v "$(pwd):/pipeline/fig" r-targets-pipeline
+docker run --rm -v "$(pwd)/fig:/pipeline/fig" r-targets-pipeline
 ```
 This will execute the code and produce a plot (fig/econ_plot.png) visualizing the data.
 
