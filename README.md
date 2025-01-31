@@ -32,5 +32,8 @@ docker run --rm -v "$(pwd)/fig:/pipeline/fig" r-targets-pipeline
 ```
 This will execute the code and produce a plot (fig/econ_plot.png) visualizing the data.
 
-## Expected Output:
-After running the pipeline, check the fig/ directory for the output plot, econ_plot.png, which visualizes the GDP and life expectancy comparisons of the countries with Luxembourg.
+## Expected Execution:
+- The data is fetched from World Bank.
+- It is cleaned
+- A chart is plotted to visualize the GDP and life expectancy comparisons of the countries with Luxembourg.
+- After running the pipeline, check the "fig" directory for the output plot.
